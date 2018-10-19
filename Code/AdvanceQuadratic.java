@@ -40,6 +40,6 @@ public class AdvanceQuadratic
 
 
         System.out.println("The discriminant is: ");
-        System.out.println("" + discriminant);
+        System.out.println(discriminant);
     }
 }
