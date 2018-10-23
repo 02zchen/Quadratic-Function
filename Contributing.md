@@ -6,7 +6,7 @@ How to create a pull request:
 
 2.) Clone the forked repository
 
-3.) go to your ternimal and type //git clone <url here>//
+3.) go to your terminal and type //git clone <url here>//
   
 4.) Make any edits to your fork 
 
