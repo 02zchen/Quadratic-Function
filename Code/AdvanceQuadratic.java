@@ -18,13 +18,15 @@ public class AdvanceQuadratic
 
         double discriminant = (b * b) - (4.0 * a * c);
         double d = Math.sqrt(discriminant);
-        
+        System.out.println("The discriminant is: ");
+        System.out.println(discriminant);
 
         if (discriminant >= 0)
         {
             if (a == 0)
             {
-                System.out.println("Undefined");
+                System.out.println("Undefined solution.");
+                System.out.println("Not a quadratic equation with a = 0.");
             }
             else
             {
@@ -35,11 +37,7 @@ public class AdvanceQuadratic
         }
         else 
         {
-            System.out.println("No real solutions");
+            System.out.println("No real solutions as the discriminant is negative. The roots are imaginary.");
         }
-
-
-        System.out.println("The discriminant is: ");
-        System.out.println(discriminant);
     }
 }
